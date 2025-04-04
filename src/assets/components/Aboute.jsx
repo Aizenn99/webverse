@@ -14,6 +14,7 @@ const Aboute = () => {
             <motion.img
               initial={{ scale: 0.5, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
+              whileHover={{ scale: 1.1 }} // Hover animation
               transition={{ duration: 1.2, ease: "easeInOut" }}
               src="/paint.jpg"
               className="w-full h-[350px] object-cover rounded-lg"
@@ -62,6 +63,7 @@ const Aboute = () => {
             <motion.img
               initial={{ scale: 0.5, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
+              whileHover={{ scale: 1.1 }} // Hover animation
               transition={{ duration: 1.2, ease: "easeInOut" }}
               src="/paint2.jpg"
               className="w-full h-[350px] object-cover rounded-lg"
@@ -81,6 +83,7 @@ const Aboute = () => {
             <motion.img
               initial={{ scale: 0.5, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
+              whileHover={{ scale: 1.1 }} // Hover animation
               transition={{ duration: 1.2, ease: "easeInOut" }}
               src="/paint3.jpg"
               className="w-full h-[350px] object-cover rounded-lg"
@@ -99,6 +102,7 @@ const Aboute = () => {
         </div>
       </div>
     </div>
-  )}
+  );
+};
 
-  export default Aboute
+export default Aboute;
